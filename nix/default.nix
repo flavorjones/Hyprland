@@ -277,6 +277,7 @@ customStdenv.mkDerivation (finalAttrs: {
       install hyprtester/popup-render -t $out/bin
       install hyprtester/wlr-foreign-toplevel -t $out/bin
       install hyprtester/toplevel-capture -t $out/bin
+      install hyprtester/cursor-capture -t $out/bin
       install hyprland_gtests -t $out/bin
       install hyprtester/child-window -t $out/bin
     ''}
